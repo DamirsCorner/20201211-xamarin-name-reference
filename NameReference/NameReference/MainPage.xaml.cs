@@ -13,6 +13,7 @@ namespace NameReference
         public MainPage()
         {
             InitializeComponent();
+            BindingContext = new MainViewModel();
         }
     }
 }
